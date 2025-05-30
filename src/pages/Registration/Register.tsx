@@ -1,6 +1,6 @@
 import React from "react";
 import { useSelector } from "react-redux";
-import { Button, Form, Input, Typography, Select } from "antd";
+import { Button, Form, Input, Select } from "antd";
 import type { FormProps } from "antd";
 import { RootState } from "../../redux";
 import { useGetRegionsQuery } from "../../redux/api/region.api";

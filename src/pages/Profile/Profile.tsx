@@ -3,7 +3,6 @@ import { useGetProfileQuery } from '../../redux/api/authorization.api'
 
 const Profile = () => {
     const { data } = useGetProfileQuery({})
-    // console.log(data.image);
 
     return (
         data &&
