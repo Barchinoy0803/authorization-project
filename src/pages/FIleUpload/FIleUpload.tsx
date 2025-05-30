@@ -45,7 +45,7 @@ const FileUpload = () => {
 
     const dispatch = useDispatch()
     const uploadImage = async (options: any) => {
-        const { onSuccess, onError, file } = options;
+        const { onError, file } = options;
         const fmData = new FormData();
         fmData.append("file", file);
         axios
